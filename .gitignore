@@ -1,0 +1,70 @@
+
+# ==========================
+# FRONTEND (React + Vite)
+# ==========================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+
+# ==========================
+# BACKEND (Python + FastAPI)
+# ==========================
+backend/.venv/
+backend/venv/
+backend/env/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/*.pyc
+backend/**/*.pyc
+
+# ==========================
+# ENVIRONMENT VARIABLES
+# ==========================
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# ==========================
+# DATABASE
+# ==========================
+*.sqlite
+*.sqlite3
+*.db
+
+# ==========================
+# MODEL / DATASET FILES
+# ==========================
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# ==========================
+# LOGS
+# ==========================
+*.log
+logs/
+
+# ==========================
+# IDE / EDITOR
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# WINDOWS / OS
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
